@@ -1,0 +1,225 @@
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.display{
+    width: 1020px;
+    height: 310px;
+    margin: 0 auto;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+
+.formElement{
+    width: 980px;
+    height: 260px;
+    resize: none;
+    font-size: 24px;
+    padding: 20px;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 16px;
+}
+h3{
+    text-align: center;
+    font-size: 12px;
+}
+
+/* **************************************************************************************************************** */
+
+.keyBoard{
+    width: 1020px;
+    margin: 0 auto;
+    
+}
+
+.button{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    margin: 2px;
+    width: 64px;
+    height: 64px;
+    background-color: rgb(39, 39, 39);
+    background-image:  linear-gradient(to top, rgba(172, 172, 172, 0), rgba(172, 172, 172, 0.068));
+    border-radius: 6px;
+    color: white;
+    overflow: hidden;
+    transition: 1s;
+}
+.dynamic{
+    font-size: 18px;
+    text-align: center;
+    height: 42px;
+    padding-top: 22px;
+}
+
+
+.button:hover{
+    background-image:  linear-gradient(to top, rgba(172, 172, 172, 0.158), rgba(172, 172, 172, 0.329));
+    transition: 1s;
+}
+
+.button1{
+    width: 74px;
+}
+
+.button2{
+    width: 105px;
+}
+
+.button3{
+    width: 141px;
+}
+
+.button4{
+    width: 77px;
+}
+
+.space{
+    width: 336px;
+}
+
+.buttonContainer{
+    overflow: hidden;
+    display: inline-block;
+    margin: 2px;
+    width: 64px;
+    height: 64px;
+}
+
+.button5{
+    display: block;
+    height: 30px;
+    width: 64px;
+    margin: 0;
+    background-color: rgb(39, 39, 39);
+    border-radius: 4px;
+    color: white;
+}
+
+.button5:nth-child(1){
+    margin-bottom: 4px;
+}
+
+.service{
+    position: relative;
+}
+
+.service>p{
+    position: absolute;
+    display: block;
+    font-size: 12px;
+    bottom: -7px;
+}
+
+.right{
+    right: 6px;
+}
+
+.left{
+    left: 6px;
+}
+
+.active{
+    background-color: rgb(0, 101, 126);
+    transition: 1s;
+}
+
+.topBar > .button{
+    display: inline-block;
+    margin: 2px;
+    height: 40px;
+}
+
+.touchBar{
+    display: inline-block;
+    position: relative;
+    background-color: black;
+    background-image:  linear-gradient(to top, rgba(172, 172, 172, 0.068), rgba(172, 172, 172, 0.13));
+    margin: 2px;
+    height: 40px;
+    width: 894px;
+    border-radius: 6px;
+}
+.info{
+    display: block;
+    position: absolute;
+    right: 50px;
+    top: -6px;
+    height: 20px;
+    font-size: 16px;
+    color: white;
+}
+
+#language{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+    height: 20px;
+    margin: 10px;
+    background-color: white;
+    float: right;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.ru{
+    background: url("img/ru.jpg") 50% 50% no-repeat;
+}
+
+.usa{
+    background: url("img/usa.jpg") 50% 50% no-repeat;
+}
+
+.off{
+    display: inline-block;
+    margin: 2px;
+    background-color: black;
+    background-image:  linear-gradient(to top, rgba(172, 172, 172, 0.068), rgba(172, 172, 172, 0.13));
+    height: 40px;
+    width: 40px;
+    border-radius: 6px;
+}
+
+#CapsLock{
+    position: relative;
+}
+
+.capsLock{
+    position: absolute;
+    display: block;
+    width: 5px;
+    height: 5px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+#CapsLock > .active {
+    position: absolute;
+    background-color: rgb(27, 214, 2);
+    box-shadow: 0 0 10px 3px  rgb(159, 235, 149);
+}
+
+.buttonArrow{
+    position: relative;
+}
+
+.buttonArrow > p{
+    font-size: 12px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    margin: 0;
+    transform: translate(-50%, -50%)
+}
