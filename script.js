@@ -58,10 +58,10 @@ const KEYBOARD_VALUE = {
 const display = document.createElement('article');
 display.id = 'display';
 display.className = 'display';
-display.innerHTML = `<form class="form">
+display.innerHTML = `<h1>RSS Виртуальная клавиатура</h1><form class="form">
 <textarea id="inputDetails" class="formElement" name="details" cols="50" rows="15"
-    placeholder="Describe your project in detail..." value=""></textarea>
-</form> <h1>this's a standard mac keyboard</h1>`;
+    placeholder="Text..." value=""></textarea>
+</form>`;
 
 /* global document */
 /* global localStorage */
@@ -75,7 +75,7 @@ keyBoard.innerHTML = `<section class="topBar">
 </div>
 </div>
 <div id="touchBar" class="touchBar">
-  <div class="info"><p>press "shift" + "space"</p> </div>
+  <div class="info"><p>Для переключения языка: "shift" + "space"</p> </div>
   <div id="language" class="language"> </div>
 </div>
 <div id="off" class="off"></div>
@@ -180,7 +180,8 @@ keyBoard.innerHTML = `<section class="topBar">
     <div id="ArrowDown" class="button buttonArrow button5"><p>▼</p></div>
 </div>
 <div id="ArrowRight" class="button buttonArrow"><p>▶</p></div>
-</section>`;
+</section>
+<h3>Сделано в MacOS</h3>`;
 
 document.body.prepend(keyBoard);
 document.body.prepend(display);
